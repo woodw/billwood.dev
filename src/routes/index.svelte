@@ -1,3 +1,7 @@
+<script>
+	import Ticker from '../components/Ticker.svelte';
+</script>
+
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -44,3 +48,5 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+
+<Ticker/>
